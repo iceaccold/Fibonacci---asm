@@ -9,7 +9,7 @@ INCLUDE Macros.inc
 .data
 
 welcome	BYTE	"--------------------------------------------------	", 13, 10,
-		" CSC 221 Project 04: Copy Strings			", 13, 10,
+		" Project 04: Copy Strings				", 13, 10,
 		" Copy a string from user and copies it			", 13, 10,
 		"--------------------------------------------------	",0
 	grabString Byte "Please enter a String", 0
