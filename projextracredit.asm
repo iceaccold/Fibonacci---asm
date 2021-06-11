@@ -55,8 +55,8 @@ ChangeStr PROC
 	mov esi, edx				; move the esi address to point at edx
 
 	LOOPY1:
-		xor BYTE PTR [esi],KEY	; translate the byte at esi 
-		inc esi					; increment esi
+		xor BYTE PTR [esi],KEY		; translate the byte at esi 
+		inc esi				; increment esi
 	loop LOOPY1
 
 	ret
