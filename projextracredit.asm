@@ -30,7 +30,7 @@ main PROC
 	call ReadString				; read the input to eax
 
 	mov bufSize, eax			; save the length into bufsize
-	call CrLf					; adds a new line
+	call CrLf				; adds a new line
 
 	call ChangeStr				; encrypt the buffer
 
